@@ -1,4 +1,3 @@
-```groovy
 node {
     try {
 
@@ -62,4 +61,4 @@ node {
         deleteDir()
     }
 }
-```
+
