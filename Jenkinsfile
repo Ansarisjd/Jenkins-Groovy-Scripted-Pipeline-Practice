@@ -40,9 +40,9 @@ node {
             echo "Running the tests"
 
             if (isUnix()) {
-                sh "pytest test_app.py"
+                sh "python3 -m pytest test_app.py"
             } else {
-                bat "pytest test_app.py"
+                bat "python3 -m pytest test_app.py"
             }
         }
 
