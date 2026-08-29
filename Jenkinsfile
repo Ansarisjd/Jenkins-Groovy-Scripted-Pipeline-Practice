@@ -30,9 +30,9 @@ node {
             echo "Running the application"
 
             if (isUnix()) {
-                sh "python app.py"
+                sh "python3 app.py"
             } else {
-                bat "python app.py"
+                bat "python3 app.py"
             }
         }
 
